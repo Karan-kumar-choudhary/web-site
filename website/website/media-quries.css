@@ -1,0 +1,212 @@
+/* media-queries.css */
+
+/* General styles for mobile */
+@media only screen and (max-width: 720px) {
+    .navbar {
+        font-size: 16px;
+        padding: 10px;
+        text-align: center;
+    }
+
+    .second-navbar {
+        margin: 0 10px 0 20px;
+        align-items: center;
+    }
+
+    .second-navbar img {
+       margin-left: 0;
+       width: 180px;
+       height: auto;
+    }
+
+    .opstion {
+        display: none;
+    }
+
+    .media-qur {
+        display: block;
+        margin-right: 20px;
+    }
+
+    .medium {
+      text-align: center;
+       margin: 0 5px 0 5px; 
+       
+    }
+
+    .change {
+        font-size: 36px;
+        margin-top: 50px;
+    }
+
+    .full-change {
+        font-size: 16px;
+    }
+    .medium button{
+        width: 90%;
+        margin-top: 30px;
+       
+    }
+
+    .pattern img {
+        width: 100%;
+        height: auto;
+       
+    }
+    .pattern{
+        margin-right: 5px;
+        margin-left: 5px;
+
+    }
+
+    .flex-container {
+        flex-direction: column-reverse;
+    }
+    .between{
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .diffrent-logo {
+     flex-wrap: wrap;
+     gap: 30px;
+    }
+    .diffrent-change{
+        text-align: center;
+        color: rgb(223, 25, 25);
+    }
+    
+
+    .multiple {
+      align-items: center;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+     .second-change{
+        margin-top: 50px;
+     }
+     .third-change{
+        margin-top: 50px;
+     }
+     .between-part img{
+            width: 90%;
+            height: auto;
+            margin-left: 25px;
+            
+     }
+     .between-part{
+        flex-direction: column;
+        text-align: center;
+        margin-top: 30px;
+     }
+     .then{
+        padding: 50px 5px 0 5px;
+        text-align: center;
+     }
+     .then p{
+        margin-top: 10px;
+    }
+     .honer img{
+         width: 90%;
+         height: auto;
+         margin-left: 20px;
+         
+     }
+     .honer{
+        flex-direction: column-reverse;
+        
+        
+     }
+     .next-option{
+        text-align: center;
+        margin: 30px 5px 0 5px;
+        
+     }
+     .fir-copy{
+        font-size: 25px;
+     }
+     .thr-copy{
+        margin-top: 5px;
+     }
+     .code-option img{
+        width: 90%;
+        height: auto;
+        align-items: center;
+        margin: 80px 0 0  20px;
+     }
+     .code-option{
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin-top: 10px;
+     }
+     .fir-paste{
+        text-align: center;
+        margin: 40px 5px 0 5px;
+     }
+     .sec-paste{
+        font-size: 22px;
+     }
+     .thr-paste{
+        font-size: 18px;
+     }
+     .most{
+        text-align: center;
+        margin: 50px 5px 0 5px;
+        font-size: 28px;
+        color: red;
+     }
+     .more-then{
+        align-items: center;
+        width: auto;
+     }
+     .genral{
+      margin: 50px 0px 0 0px ;
+      width:  100%;
+      height: 30%;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 25px;
+     }
+    .five-output{
+      font-size: 18px;
+      font-weight: 1;
+      text-align: center;
+      padding: 200px 5px 0 5px;
+    }
+    .six-ouput{
+      font-size: 18px;
+      font-weight: 1;
+      text-align: center;
+      padding: 200px 5px 0 5px;
+    
+      
+    }
+    .rule{
+      font-size: 25px;
+    }
+    .niyam{
+      font-size: 17px;
+      
+    }
+    .last-moment button{
+      width: 80%;
+    }
+    .last-moment{
+      height: 250px;
+    }
+    .main-change{
+      display: block;
+      text-align: center;
+    }
+    .honer-rule{
+      height: auto;
+    }
+    .and-moment{
+      margin-top: 20px;
+      
+    }
+    .last-seen{
+      flex-wrap: wrap;
+      
+    }
+}

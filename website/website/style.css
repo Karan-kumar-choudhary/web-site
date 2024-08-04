@@ -1,0 +1,553 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.navbar{
+    height: 50px;
+    background-color: skyblue;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 20px;
+    overflow: hidden;
+    
+}
+.media-qur{
+    display: none;
+
+}
+.second-navbar{
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+    justify-content: space-between;  
+    overflow: hidden; 
+}
+.second-navbar img{
+    margin-left: 100px;
+    cursor: pointer;
+}
+.opstion a{
+    margin-right: 45px;
+    font-size: 19px;
+    color: #183B56;
+    cursor: pointer;
+}
+
+.opstion button{
+    cursor: pointer;
+}
+.up{
+    padding: 15px 24px;
+    border: 1.9px solid #2294ed;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: transparent;
+    color: #183B56;
+    margin-right: 40px;
+    
+}
+.down{
+    padding: 14px 25px ;
+    border: none;
+    border-radius: 5px;
+    background-color: #2294ed;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    margin-right: 52px;
+    transition: all .2s ease-out;
+    
+}
+.down:hover{
+    background-color:#045da1 ;
+}
+.up:hover{
+    color: #2294ed;
+}
+.opstion a:hover{
+ color: #2294ed;
+}
+.medium{
+    margin: 150px 102px;
+}
+.change{
+    font-size: 48px;
+    color: #183B56;
+    font-weight: bold;
+    font-family: sans-serif;
+    
+}
+.full-change{
+    font-size: 20px;
+    font-family: sans-serif;
+    color: #577592;
+    margin-top: 10px;
+    line-height: 25px;
+    
+    
+}
+.medium button{
+    padding: 15px 18px;
+    background-color: #2294ed;
+    font-size: 18px;
+    font-family: sans-serif;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.medium button:hover{
+    background-color: #045da1;
+}
+.flex-container{
+    display: flex;
+    overflow: hidden;
+}
+.pattern{
+    display: flex;
+    justify-content: flex-end;
+    margin: 50px 50px 0px 0px;
+    
+}
+.between{
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.822);
+    font-family: sans-serif;
+    font-weight: 550;
+    margin-top: 50px;
+    
+}
+.diffrent-logo{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    overflow: hidden;
+    
+}
+.diffrent-change{
+    display: flex;
+    justify-content: center;
+    font-size: 35px;
+    margin-top: 90px;
+    font-weight: 550;
+    color: rgba(0, 0, 0, 0.836);
+    font-family: sans-serif;
+    overflow: hidden;
+}
+.full-stock{
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+.full-stock button{
+    padding: 15px 30px 15px 30px;
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: 550;
+    color: rgba(0, 0, 0, 0.788);
+    border: 1.6px solid black;
+    border-radius: 6px;
+    margin-top: 30px;
+    cursor: pointer;
+    overflow: hidden;
+    
+}
+.full-stock :hover{
+    color: #2294ed;
+    border-color: #2294ed;
+    overflow: hidden;
+
+}
+.first-change{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+.card{
+    font-size: 25px;
+    font-weight: bold;
+    overflow: hidden;
+    margin-top: 10px;
+}   
+.hello-change{
+    font-size: 20px;
+    color: #577592;
+    overflow: hidden;
+    margin-top: 10px;
+    text-align: center;
+}
+.multiple button{
+    padding: 13px 25px 13px 25px;
+    cursor: pointer;
+    font-size: 17px;
+    font-weight: bold;
+    border: 1.5px solid #577592;
+    border-radius: 6px;
+    margin-top: 20px;
+    color: #183B56;
+    overflow: hidden;
+}
+.multiple button:hover{
+    color: #2294ed;
+    border-color: #2294ed;
+    overflow: hidden;
+}
+.pro{
+    font-size:25px ;
+    font-weight: bold;
+    margin-top: 10px;
+    overflow: hidden;
+}
+.pro-next{
+    font-size: 20px;
+    color: #577592;
+    margin-top: 10px;
+    overflow: hidden;
+    text-align: center;
+}
+.fir{
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 10px;
+    overflow: hidden;
+}
+.fir-next{
+    font-size: 20px;
+    color: #577592;
+    margin-top: 10px;
+    text-align: center;
+    overflow: hidden;
+}
+.multiple{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 80px;
+    font-family: sans-serif;
+    overflow: hidden;
+       
+}
+.second-change{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+    
+}
+.third-change{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+}
+.between-part img{
+    margin: 40px 0px 0px 150px;
+    overflow: hidden;
+}
+.between-part{
+    display: flex;
+    margin-top: 80px;
+    overflow: hidden;
+}
+.then{
+    padding: 250px 0 0 20px;  
+    overflow: hidden;
+}
+.then p{
+    font-size: 20px;
+    color: #577592;
+    overflow: hidden;
+}
+.when{
+    font-size: 17px;
+    font-family: sans-serif;
+    font-weight:bolder;
+    color: #183B56;
+    overflow: hidden;
+}
+.when-change{
+    font-size: 25px;
+    font-family: sans-serif;
+    font-weight: bolder;
+    color: #183B56;
+    overflow: hidden;
+}
+.next-option{
+    margin: 200px 0px 0px 90px;
+    overflow: hidden;
+}
+.fir-copy{
+    font-size: 17px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: #183B56;
+    overflow: hidden;
+    
+}
+.sec-copy{
+    font-size: 25px;
+    font-family: sans-serif;
+    font-weight: bolder;
+    color: #183B56;
+    overflow: hidden;
+
+}
+.thr-copy{
+    font-size: 20px;
+    font-family: sans-serif;
+    color: #577592;
+    overflow: hidden;
+}
+.honer{
+    display: flex;
+    margin-top: 80px;
+    overflow: hidden;
+}
+.honer img{
+    margin-right: 150px;
+}
+.code-option img{
+    margin: 70px 0px 0px 100px;
+    overflow: hidden;
+}
+.code-option{
+    display: flex;
+    margin-top: 60px;
+    overflow: hidden;
+}
+.fir-paste{
+    margin-top: 280px;
+    margin-left: 10px;
+    font-family: sans-serif;
+    overflow: hidden;
+}
+.sec-paste{
+    font-size: 17px;
+    color: #183B56;
+    font-weight: bolder;
+    overflow: hidden;
+}
+.thr-paste{
+    font-size: 25px;
+    font-weight: bolder;
+    color: #183B56;
+    overflow: hidden;
+}
+.for-paste{
+    font-size: 20px;
+    color: #577592;
+    overflow: hidden;
+}
+.connect-to{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.most{
+    font-size: 35px;
+    font-family: sans-serif;
+    color: #183B56;
+    font-weight: bolder;
+    margin-top: 50px;
+    overflow: hidden;
+}
+.more-then{
+    padding: 15px 28px 15px 28px ;
+    margin-top: 20px;
+    color: #183B56;
+    font-size: 18px;
+    font-weight: bolder;
+    border: 1.5px solid #577592;
+    border-radius: 6px;
+    cursor: pointer;
+    overflow: hidden;
+}
+.more-then:hover{
+    border-color: #2294ed;
+    color: #2294ed;
+    overflow: hidden;
+}
+.genral{
+    display: flex;
+    margin: 30px 100px 0px 100px; 
+    justify-content: space-evenly;
+    cursor: pointer;
+    overflow: hidden;
+    
+}
+.first-output{
+    width: 250px;
+    height: 270px;
+    background: linear-gradient(to top ,rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url("pexels-george-milton-7014337.jpg");
+    background-size: cover;
+    overflow: hidden;
+    
+}
+.first-output:hover{
+    box-shadow: 1px 1px 5px 4px rgb(177, 173, 173);
+    overflow: hidden;
+}
+.five-output{
+    font-size: 26px;
+    color: white;
+    padding: 130px 0px 0px 20px;
+    font-weight: bold;
+    font-family: sans-serif;
+    overflow: hidden;
+}
+.second-output{
+    width: 250px;
+    height: 270px;
+    background: linear-gradient(to top,rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%),url(pexels-anete-lusina-7256738.jpg);
+    background-size: cover;
+    overflow: hidden;
+}
+.second-output:hover{
+    box-shadow: 1px 1px 5px 4px rgb(177, 173, 173);
+    overflow: hidden;
+}
+.six-ouput{
+    font-size: 26px;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    padding: 160px 0px 0px 20px;
+    overflow: hidden;
+}
+.third-output{
+    width: 250px;
+    height: 270px;
+    background: linear-gradient(to top,rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%),url(pexels-jibarofoto-2833037.jpg);
+    background-size: cover;
+    overflow: hidden;
+}
+.third-output:hover{
+    box-shadow: 1px 1px 5px 4px rgb(177, 173, 173);
+    overflow: hidden;
+}
+.fourth-output{
+    width: 250px;
+    height: 270px;
+    background-color:gray;
+    overflow: hidden;
+}
+.fourth-output:hover{
+    box-shadow: 1px 1px 5px 4px rgb(177, 173, 173);
+    overflow: hidden;
+}
+.last-moment{
+    width: 100%;
+    height: 350px;
+    background-color: #183B56;
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    justify-content: center;
+    overflow: hidden;
+    
+}
+.mixer-concept{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+}
+.rule{
+    font-size: 30px;
+    font-weight: bolder;
+    color: white;
+    overflow: hidden;
+}
+.niyam{
+    font-size: 20px;
+    color: white;
+    overflow: hidden;
+    margin-top: 15px;
+}
+.last-moment button{
+    font-size: 18px;
+    background-color: #2294ed;
+    color: white;
+    font-weight: bold;
+    padding: 13px 20px 13px 20px;
+    border: none;
+    border-radius: 6px;
+    margin-top: 20px;
+    cursor: pointer;
+    overflow: hidden;
+}
+.last-moment button:hover{
+    background-color: #457eaa;
+    overflow: hidden;
+}
+.honer-rule{
+    width: 100%;
+    height: 400px;
+    background-color: #ebf2fa;
+    overflow: hidden;
+    
+}
+.main-change{
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-evenly;
+    overflow: hidden;
+}
+.same:hover{
+  color: #2294ed;
+  cursor: pointer;
+  overflow: hidden;
+}
+.last-seen{
+    width: 100%;
+    height: 70px;
+    background-color: #b9cde4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 17px;
+    color: #183B56;
+    font-family: sans-serif;
+    overflow: hidden;
+    
+}
+.brand:hover{
+color: #2294ed;
+cursor: pointer;
+overflow: hidden;
+
+}
+.fa-facebook:hover{
+    color: #2294ed;
+    cursor: pointer;
+    overflow: hidden;
+}
+.fa-twitter:hover{
+    color: #2294ed;
+    cursor: pointer;
+    overflow: hidden;
+}
+.brand{
+    margin-left: 30px;
+    overflow: hidden;
+}
+.fa-facebook{
+    margin-left: 30px;
+    overflow: hidden;
+}
+.fa-twitter{
+    margin-left: 30px;
+    overflow: hidden;
+}
